@@ -74,9 +74,12 @@
             }
 
             li a:hover {
-                background-color: rgb(59, 206, 59);
+                background-color: rgba(150, 188, 255, 0.816)
             }
 
+            a.active {
+                background-color: rgba(150, 188, 255, 0.816);
+            }
         </style>
     </head>
 
@@ -92,7 +95,7 @@
         <div class="navigation">
             <nav>
                 <ul>
-                    <li><a href="index.html">Gallery</a></li>
+                    <li><a href="index.html" class="active">Gallery</a></li>
                     <li><a href="About page.html">About</a></li>
                     <li><a href="Contact Page.html">Contact</a></li>
                 </ul>
@@ -520,27 +523,29 @@
                 </div>
                 
                 <div class="hover-container">
-                    <img id=squarewaterjug src="GalleryPhotos/Ceramics/Waterjug2.png" width="250">
+                    <img id=squarewaterjug src="GalleryPhotos/Ceramics/waterjug3.jpg" width="250">
                     <div class="hover-description">
                         <em>2023</em>
                     </div>
                     <br>
                     <div>
-                        <button onclick="document.getElementById('squarewaterjug').src='GalleryPhotos/Ceramics/Waterjug2.png'">1</button>
+                        <button onclick="document.getElementById('squarewaterjug').src='GalleryPhotos/Ceramics/waterjug3.jpg'">1</button>
                         <button onclick="document.getElementById('squarewaterjug').src='GalleryPhotos/Ceramics/waterjug2_2.png'">2</button>
+                        <button onclick="document.getElementById('squarewaterjug').src='GalleryPhotos/Ceramics/waterjug2.png'">3</button>
                     </div>
                 </div>
 
 
                 <div class="hover-container">
-                    <img  id="maintreefaceImage" src="GalleryPhotos/Ceramics/treeface1.jpg" width="250">
+                    <img  id="maintreefaceImage" src="GalleryPhotos/Ceramics/treeface3.jpg" width="250">
                     <div class="hover-description"> 
                         <em>2025</em>
                     </div>
                     <br>
                     <div>
-                        <button onclick="document.getElementById('maintreefaceImage').src='GalleryPhotos/Ceramics/treeface1.jpg'">1</button>
-                        <button onclick="document.getElementById('maintreefaceImage').src='GalleryPhotos/Ceramics/treeface2.jpg'">2</button>
+                        <button onclick="document.getElementById('maintreefaceImage').src='GalleryPhotos/Ceramics/treeface3.jpg'">1</button>
+                        <button onclick="document.getElementById('maintreefaceImage').src='GalleryPhotos/Ceramics/treeface1.jpg'">2</button>
+                        <button onclick="document.getElementById('maintreefaceImage').src='GalleryPhotos/Ceramics/treeface2.jpg'">3</button>
                     </div>
                 </div> 
             </div>
